@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sentry-asgi-bug"
+version = "0.1.0"
+description = ""
+authors = ["detoyz <ciuv.ivan@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "sentry_asgi_bug" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sentry-sdk = "1.16.0"
+falcon = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
